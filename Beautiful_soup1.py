@@ -1,3 +1,4 @@
+#the docstring having all the tags of HTML
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
 <body>
@@ -13,6 +14,9 @@ id="link3">Tillie</a>;
 and they lived at the bottom of a well.</p>
 <p class="story">...</p>
 """
+#imporitng the beautifulsoup
 from bs4 import BeautifulSoup
+#using BS4 and passing the docstring and requires output is in the form of full html document
 soup = BeautifulSoup(html_doc, 'html.parser')
+#print the html format
 print(soup.prettify())
