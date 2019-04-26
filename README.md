@@ -4,11 +4,12 @@ Web scraping is about downloading structured data from the web, selecting some o
 
 ## Beautiful Soup:
 
-Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with
-your favorite parser to provide idiomatic ways of navigating, searching, and modifying the
-parse tree. It commonly saves programmers hours or days of work. Here’s an HTML
-document I’ll be using as an example
-install it using pip install beautifulsoup4
+Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work. Here’s an HTML document I’ll be using as an example
+
+install it using 
+
+pip install beautifulsoup4
+
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
 <body>
